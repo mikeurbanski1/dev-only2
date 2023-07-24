@@ -3,3 +3,6 @@ resource "random_integer" "i1" {
   max = 10
 }
 
+resource "aws_ebs_volume" "v" {
+
+}
